@@ -1,0 +1,20 @@
+.card-image {
+    margin: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-height: 30vh;
+}
+
+@media screen and (max-width: 768px){
+    .card-image{
+        margin: 3vh;
+    }
+
+    .card {
+        max-height: 15vh;
+    }
+}
